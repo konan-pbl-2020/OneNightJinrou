@@ -6,4 +6,68 @@
     android:layout_height="match_parent"
     tools:context=".RuleActivity">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="153dp"
+        android:layout_height="78dp"
+        android:text="戻る"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="625dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ルール説明"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="312dp"
+        android:layout_height="98dp"
+        android:text="　ワンナイトタウンとは：女の子陣営と人狼陣営に分かれて話し合いをして多数決で処刑する人を決めるゲームです。"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="女の子陣営は人狼を処刑できたら勝ちです。"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="321dp"
+        android:layout_height="0dp"
+        android:text="占い師：選択した人の役職を見ることができます。"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="325dp"
+        android:layout_height="0dp"
+        android:text="怪盗：選択した人の役職を盗ることができます"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="人狼：処刑されなければ勝利となります。"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="493dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
