@@ -25,13 +25,13 @@ public class MainActivity extends AppCompatActivity {
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications)
                 .build();
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+        NavController navController = Navigation.findNavController(this, R.id.nav_view);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
         Button buttonRule  = (Button)findViewById(R.id.button1_2);
-        buttonStart.setOnClickListener(new Veiw OnClickeListener(){
-            void onClick(View  v){
+        buttonRule.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View  v){
                 Intent intent1_2 = new Intent(MainActivity.this,RuleActivity.class);
                 startActivity(intent1_2);
 
