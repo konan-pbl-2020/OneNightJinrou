@@ -29,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
-        Button buttonRule  = (Button)findViewById(R.id.button1_3);
+        Button buttonRule  = (Button)findViewById(R.id.button1_2);
         buttonStart.setOnClickListener(new Veiw OnClickeListener(){
             void onClick(View  v){
-                Intent intent1_3 = new Intent(MainActivity.this,RuleActivity.class);
-                startActivity(intent1_3);
+                Intent intent1_2 = new Intent(MainActivity.this,RuleActivity.class);
+                startActivity(intent1_2);
 
             }
 
